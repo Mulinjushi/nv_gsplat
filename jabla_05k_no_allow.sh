@@ -17,7 +17,7 @@ for i in {1..2}; do
         --notification_mode never \
         --image=/lustre/fsw/portfolios/nvr/users/ymingli/dockers/2304py3.sqsh \
         --mounts=/lustre/:/lustre/,/lustre/fsw/portfolios/nvr/users/ymingli/miniconda3:/home/ymingli/miniconda3 \
-        --duration 8 \
+        --duration 4 \
         --dependency=singleton \
         --name ${job_name} \
         --logdir ${base_logdir}/run_${i} \
